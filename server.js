@@ -59,7 +59,7 @@ const server = http.createServer((req, res) => {
   res.end(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>hello-node</title>
 <style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px}th{text-align:left;padding:6px 16px 6px 0;color:#555;font-weight:500}td{font-family:ui-monospace,monospace}</style>
-<h1>hello-node is running</h1><p>Node.js runtime test app for Shiplon.</p><table>${rows}</table>`);
+<h1>hello-node is running (v2)</h1><p>Node.js runtime test app for Shiplon.</p><table>${rows}</table>`);
 });
 
 server.listen(port, "0.0.0.0", () => console.log(`hello-node listening on :${port}`));
