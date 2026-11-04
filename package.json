@@ -1,0 +1,11 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shiplon test app: Node.js runtime (install, build, start, env vars, health check)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  }
+}
